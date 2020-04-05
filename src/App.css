@@ -2,37 +2,61 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#drum-machine {
+  display: grid;
+  width: 50%;
+  min-height: 400px;
+  margin: auto;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  background: LightGray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Q {
+  background: bisque;
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#W {
+  background: rgb(196, 255, 223);
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
 }
-
-.App-link {
-  color: #61dafb;
+#E {
+  background: rgb(30, 14, 180);
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#A {
+  background: rgb(189, 113, 21);
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
+}
+#S {
+  background-color: rgb(20, 218, 152);
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
+}
+#D {
+  background-color: rgb(102, 60, 9);
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
+}
+#Z {
+  background-color: rgb(199, 33, 111);
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
+}
+#X {
+  background-color: rgb(198, 255, 196);
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
+}
+#C {
+  background-color: rgb(196, 255, 196);
+  border-radius: 5px;
+  box-shadow: 8px 4px 12px 3px #000000;
 }
